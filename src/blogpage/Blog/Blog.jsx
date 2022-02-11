@@ -26,11 +26,11 @@ export const Blog = () => {
         if(item._id===_id){
             blogpost.unshift(item)
         }
-    })
+})
     
     return (
        <div className="blog">
-           {blogpost.map((item)=>(
+           {post.map((item)=>(
                 <div className="blog_content">
                                <div key={item.title} className="blog_title">{item.title}</div>
                                <div className="line"></div>
