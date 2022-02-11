@@ -1,14 +1,23 @@
-import Hero from "./Hero/Hero";
-import Navbar from "./Navbar/Navbar";
-import Product from "./Product/Product";
-
+import Hero from "./home/Hero.jsx";
+import Navbar from './Navbar/Navbar';
+import { Routes,Route } from "react-router-dom";
+import Blogpage from "./blogpage/index.jsx";
 
 function App() {
+
+
+
   return (
-    <div className="App">
-        <Navbar/>
-        <Hero/>
-        <Product/>
+
+
+    <div>
+      <Navbar />
+        
+          <Routes>  
+          
+             <Route exact path="/" element={<Hero/>}/>
+             <Route path="/c/:cat/:_id" element={<Blogpage/>} />
+          </Routes>
     </div>
   );
 }
