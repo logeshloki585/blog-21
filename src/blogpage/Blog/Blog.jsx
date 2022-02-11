@@ -30,7 +30,7 @@ export const Blog = () => {
     
     return (
        <div className="blog">
-           {post.map((item)=>(
+           {blogpost.map((item)=>(
                 <div className="blog_content">
                                <div key={item.title} className="blog_title">{item.title}</div>
                                <div className="line"></div>
