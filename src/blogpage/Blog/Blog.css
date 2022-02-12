@@ -19,7 +19,7 @@
 }
 
 .blog img{
-    height: 550px;
+    /* height: 550px; */
     object-fit: contain;
     align-items: center;
 }
@@ -36,6 +36,36 @@
 @media only screen and (max-width: 800px) {
     .blog{
         display: block;
-        
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
     }
+    
+.blog img{
+    width: 100%;
+    align-items: center;
+}
+
+.content{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 800px) {
+   
+.blog img{
+    height: 550px;
+    width: 80%;
+    object-fit: contain;
+    align-items: center;
+}
+
 }
