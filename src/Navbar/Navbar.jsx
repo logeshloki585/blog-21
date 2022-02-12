@@ -8,7 +8,7 @@ function Navbar() {
     <>
         <div className="navba">
             <div className='logo'>
-                <img src="https://www.seekpng.com/png/detail/283-2832318_logos-free-landscaping-logos-hola-klonec-co-attractive.png" alt="logo" />
+                <img src="https://ik.imagekit.io/c1b5auphnyr/logomain_Ft4acWvqJwkn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644662289184" alt="logo" />
             </div>
             <div className="search">
                 <input type="text" placeholder=' search.....'/>

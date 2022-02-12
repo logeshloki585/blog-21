@@ -34,8 +34,9 @@
 }
 
 .title:focus{
-    background-color: greenyellow;
+    background-color: #0070bc;
     font-weight: 600;
+    color: aliceblue;
 }
 
 @media only screen and (max-width: 800px) {

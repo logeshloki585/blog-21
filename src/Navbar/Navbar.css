@@ -1,7 +1,7 @@
 .navba{
     height: 60px;
     width: 100%;
-    background-color: rgb(59, 93, 206);
+    background-color: #0070bc;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,19 +10,20 @@
 
 .logo{
     height: 40px;
-    width: 100px;
-    background-color: rgb(212, 17, 17);
+    width: 120px;
+    background-color: #2a89c7;
     align-items: center;
     margin-left: 20px;
 }
 
 .logo img{
     height: 100%;
+    width: 100%;
 }
 
 .search{
     width: 200px;
-    height: 40px;
+    height: 35px;
     border-radius: 50px;
     background-color: white;
     margin-right: 20px;
