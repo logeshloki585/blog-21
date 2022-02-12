@@ -20,7 +20,7 @@ function Navbar() {
                 <Link to={'/'}><button className="item">HOME</button></Link>
                 <Link to={'/c/python/t1'}><button className="item">PYTHON</button></Link>           
                 <Link to={'/c/webdev/t'}><button className="item">WEBDEV</button></Link>
-                <Link to={'/c/deeplearning/t'}><button className="item">DEEP LEARNING</button></Link>
+                <Link to={'/c/deeplearning/t'}><button className="item">DEEPLEARNING</button></Link>
         </div>
     </>
     )

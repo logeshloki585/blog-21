@@ -1,7 +1,7 @@
 .navba{
     height: 60px;
     width: 100%;
-    background-color: rgb(53, 163, 9);
+    background-color: rgb(59, 93, 206);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,7 +57,7 @@
     min-width: 110px;
     padding: 0 10px;
     color: white;
-    height: 35px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +78,7 @@
     
 .search{
     width: 150px;
-    height: 40px;
+    height: 35px;
 }
 
 .search input{
@@ -88,6 +88,11 @@
     height: 25px;
     margin-right: 5px;
 }
+
+ .search i{
+     font-size: 15px;
+     color: rgb(70, 67, 67);
+ }
     .nav_items{
      
         justify-content:start;
